@@ -19,20 +19,8 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-image: url(../images/land.jpeg) linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));   */
   }
 
-
-/*     .land::after {
-      content: '';
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      width: 800px; /* Adjust the width of the shadow as needed */
-/*       background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)); */
-    }
- */
 
 
     .land .container .row .right-side img{
