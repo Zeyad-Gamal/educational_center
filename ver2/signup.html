@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+
+<style>
+    body{
+        background-image: url(images/Premium\ Vector\ Brick\ wall\ with\ a\ blackboard_.jpeg);
+        background-position: center;
+
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+    label{
+        color: white;
+    }
+
+
+    #side{
+      background-color: rgba(109, 109, 109, 0.498);border-radius: 0.5rem; margin: auto;padding: 4rem;width: 50%;
+    }
+
+
+
+    @media only screen and (max-width: 600px) {
+            #side{
+              width: 150%;
+            }
+        }
+</style>
+
+</head>
+
+<body>
+
+
+    <section style="display: flex;gap: 1rem; justify-content: center;margin-top: 5rem;padding: 0.5rem;">
+    
+        
+
+
+        <div id="side" class="side" >
+          <div style="text-align:center;margin-bottom:1rem;"><img src="images/img2.jpeg" style="margin:0;background-color:white;border-radius:50%;padding:0.2rem;" alt="Description of the image" width="80" height="80"></div>
+
+        <h1 style="text-align: center; color: whitesmoke; font-weight: 600;">Signup</h1>
+            <form method="post" class="row g-3" style="margin-top: 2rem;">
+                <div class="col-md-6">
+                    <label for="signupname" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="signupname" name="signupname" required>
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="signupmobile" class="form-label">Mobile</label>
+                    <input type="tel" class="form-control" id="signupmobile" name="signupmobile" required>
+                  </div>
+                  
+                <div class="col-md-6">
+                  <label for="signuppassword" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="signuppassword" name="signuppassword" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="signuprepassword" class="form-label">Re-Password</label>
+                  <input type="password" class="form-control" id="signuprepassword" name="signuprepassword" required>
+                </div>
+                <div class="col-12">
+                  <label for="signupemail" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="signupemail" name="signupemail" required>
+                </div>
+                <div class="col-12">
+                  <label for="signupcompany" class="form-label">Company name</label>
+                  <input type="text" class="form-control" id="signupcompany" name="signupcompany" required>
+                </div>
+                <div class="col-12">
+                  <label for="signuptax" class="form-label">Tax register</label>
+                  <input type="text" class="form-control" id="signuptax" name="signuptax" required>
+                </div>
+                
+                <div class="col-md-4">
+                  <label for="signuptype" class="form-label">Join as</label>
+                  <select id="signuptype" class="form-select" name="signuptype" required>
+                    <option selected>Choose...</option>
+                    <option>user</option>
+                    <option>admin</option>
+                  </select>
+                </div>
+
+                <div class="col-md-8">
+                    <p style="color: transparent;" id="pass-vali">Passwords don't match, Enter the information again</p>
+                  </div>
+ 
+
+                  
+                
+               
+                <div class="col-12">
+                  <button style="float: right;" type="submit" class="btn btn-warning" id="signupbutton" name="signupbutton">Sign up</button>
+                </div>
+              </form>
+        </div>
+    
+    </section>
+
+</body>
+</html>
